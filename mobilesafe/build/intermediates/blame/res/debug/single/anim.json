@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\tran_shake.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\tran_shake.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\tran_next_in.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\tran_next_in.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\tran_previous_out.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\tran_previous_out.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\tran_previous_in.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\tran_previous_in.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\anim\\tran_next_out.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\anim\\tran_next_out.xml"
+    }
+]

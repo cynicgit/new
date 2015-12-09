@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    style="@style/title"
+    	android:text="功能列表"
+	    />
+	
+	<TextView 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="发的萨芬撒广泛的后果，人的预热预热的法国还是ssssssssssssssssssss"
+    	android:textSize="16sp"
+    	android:textColor="#f00"
+    	android:singleLine="true"
+    	android:focusable="true"
+    	android:focusableInTouchMode="true"
+    	android:gravity="center"
+    	android:layout_marginTop="1dp"
+    	android:layout_marginBottom="3dp"
+    	android:ellipsize="marquee"         
+	    />
+	
+	<GridView 
+	    android:id="@+id/gv_menu"
+	    android:layout_width="match_parent"
+	    android:layout_weight="1"
+    	android:layout_height="0dp"
+    	android:verticalSpacing="20dp"
+    	android:numColumns="3"
+	    />
+    
+    
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/title"
+        android:text="通讯卫士" />
+
+    <TextView
+        android:id="@+id/tv_blacknumber_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="黑名单管理"
+        android:textSize="20sp"
+        android:background="#5000"
+        android:onClick="managerBlackNumber"
+        android:clickable="true" />
+
+</LinearLayout>
