@@ -16,6 +16,7 @@ import ip.cynic.mobilesafe.domain.BlackNumber;
 public class BlackNumberDao {
 
     private BlackNumberHelper helper;
+    private Cursor cursor;
 
     public BlackNumberDao(Context context) {
         helper = new BlackNumberHelper(context);
@@ -77,5 +78,28 @@ public class BlackNumberDao {
 
         return numberList;
     }
+
+    public int count(){
+        SQLiteDatabase db = helper.getWritableDatabase();
+        Cursor cursor = db.rawQuery("select count(*) from blacknumber", new String[]{});
+        cursor.moveToNext();
+        int anInt = cursor.getInt(0);
+        return anInt;
+    }
+
+    public List<BlackNumber> findBlackNumberPage(int pageNum,int num){
+        List<BlackNumber> numberList = new ArrayList<BlackNumber>();
+        SQLiteDatabase db = helper.getWritableDatabase();
+        cursor = db.rawQuery("select number,mode from blacknumber limit ?,?",
+                new String[]{String.valueOf((pageNum-1)*num),String.valueOf(num)});
+        while (cursor.moveToNext()){
+            String number = cursor.getString(0);
+            String mode = cursor.getString(1);
+            numberList.add(new BlackNumber(number, mode));
+        }
+
+        return numberList;
+    }
+
 
 }

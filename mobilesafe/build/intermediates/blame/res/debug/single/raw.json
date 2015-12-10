@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\raw\\ylzs.mp3",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\raw\\ylzs.mp3"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\raw\\ylzs.mp3",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\raw\\ylzs.mp3"
     }

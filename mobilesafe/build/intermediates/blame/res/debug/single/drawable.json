@@ -1,15 +1,35 @@
 [
     {
-        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
-        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable\\btn_shape.xml"
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_iv_delete.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable\\btn_iv_delete.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable\\btn_green_selector.xml"
     },
     {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable\\btn_shape.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_next_previous_selector.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable\\btn_next_previous_selector.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_selector.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable\\btn_shape_selector.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable\\btn_green_selector.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_selector.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable\\btn_shape_selector.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable\\btn_shape.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_next_previous_selector.xml",

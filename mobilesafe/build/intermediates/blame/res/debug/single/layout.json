@@ -1,5 +1,37 @@
 [
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup1.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setup1.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blacknumber.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_blacknumber.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_location.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_address_location.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atools.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_atools.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_item.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setting_item.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_show.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_address_show.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_home.xml"
     },
@@ -20,28 +52,48 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_location.xml",
-        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_address_location.xml"
-    },
-    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup3.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_setup3.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_password.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_set_password.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\blacknumber_list_item.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\blacknumber_list_item.xml"
     },
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup4.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setup4.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_item.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_home_item.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_login_password.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_item.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_contact_item.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_click.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setting_click.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lost_find.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_lost_find.xml"
     },
     {
-        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
-        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_login_password.xml"
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_item.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_home_item.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_item.xml",
@@ -60,8 +112,16 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_contact.xml"
     },
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_login_password.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_click.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_setting_click.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setting.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_password.xml",
@@ -80,11 +140,39 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_blacknumber.xml"
     },
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_location.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_address_location.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup3.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setup3.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lost_find.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_lost_find.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\blacknumber_list_item.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\blacknumber_list_item.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call_safe.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_call_safe.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_item.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_contact_item.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup1.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_setup1.xml"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup2.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setup2.xml"
     }
 ]

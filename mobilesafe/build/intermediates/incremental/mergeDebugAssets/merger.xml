@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\git\MyApplication\mobilesafe\src\main\assets"><file name="address.db" path="F:\git\MyApplication\mobilesafe\src\main\assets\address.db"/></source></dataSet><dataSet config="debug"><source path="F:\git\MyApplication\mobilesafe\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\andriodstudio\new\mobilesafe\src\main\assets"><file name="address.db" path="E:\andriodstudio\new\mobilesafe\src\main\assets\address.db"/></source></dataSet><dataSet config="debug"><source path="E:\andriodstudio\new\mobilesafe\src\debug\assets"/></dataSet></merger>

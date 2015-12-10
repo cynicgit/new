@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\menu\\main.xml"
     }

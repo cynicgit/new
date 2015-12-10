@@ -2,5 +2,9 @@
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

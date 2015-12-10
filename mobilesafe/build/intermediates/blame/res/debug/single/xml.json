@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\xml\\device_admin.xml",
+        "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\xml\\device_admin.xml"
+    },
+    {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\xml\\device_admin.xml",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\xml\\device_admin.xml"
     }
