@@ -73,7 +73,7 @@ public class LostFindActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==110&&resultCode!=0){
-            ToastUtil.showToasr(this, "如要卸载请先关闭设备管理器");
+            ToastUtil.showToast(this, "如要卸载请先关闭设备管理器");
         }
     }
 

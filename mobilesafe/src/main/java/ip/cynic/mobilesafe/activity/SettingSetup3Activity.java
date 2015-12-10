@@ -25,7 +25,7 @@ public class SettingSetup3Activity extends BaseSetupActivity {
     public void showNextPage() {
         String phone = etPhone.getText().toString().trim();
         if(TextUtils.isEmpty(phone)){
-            ToastUtil.showToasr(this, "安全号码不能为空");
+            ToastUtil.showToast(this, "安全号码不能为空");
             return ;
         }
         mPref.edit().putString("phone", phone).commit();

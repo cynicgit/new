@@ -24,7 +24,7 @@ public class SettingSetup2Activity extends BaseSetupActivity {
     @Override
     public void showNextPage() {
         if(!siv.isChecked()){
-            ToastUtil.showToasr(this, "必须绑定sim卡");
+            ToastUtil.showToast(this, "必须绑定sim卡");
             return ;
         }
         TelephonyManager manager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);

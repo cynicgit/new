@@ -97,7 +97,8 @@ public class BlackNumberDao {
             String mode = cursor.getString(1);
             numberList.add(new BlackNumber(number, mode));
         }
-
+        cursor.close();
+        db.close();
         return numberList;
     }
 
