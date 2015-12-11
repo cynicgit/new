@@ -102,5 +102,20 @@ public class BlackNumberDao {
         return numberList;
     }
 
+    public List<BlackNumber> findBlackNumberPage2(int pageNum,int num){
+        List<BlackNumber> numberList = new ArrayList<BlackNumber>();
+        SQLiteDatabase db = helper.getWritableDatabase();
+        cursor = db.rawQuery("select number,mode from blacknumber limit ?,?",
+                new String[]{String.valueOf(pageNum),String.valueOf(num)});
+        while (cursor.moveToNext()){
+            String number = cursor.getString(0);
+            String mode = cursor.getString(1);
+            numberList.add(new BlackNumber(number, mode));
+        }
+        cursor.close();
+        db.close();
+        return numberList;
+    }
+
 
 }

@@ -19,6 +19,6 @@ public class CallSafeActivity extends Activity{
     }
 
     public void managerBlackNumber(View view){
-        startActivity(new Intent(this, BlackNumberActivity.class));
+        startActivity(new Intent(this, BlackNumberActivity2.class));
     }
 }

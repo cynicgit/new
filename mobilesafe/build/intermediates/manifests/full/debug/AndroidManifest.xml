@@ -17,7 +17,6 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
@@ -48,6 +47,7 @@
         <activity android:name="ip.cynic.mobilesafe.activity.AddressLocationActivity" />
         <activity android:name="ip.cynic.mobilesafe.activity.CallSafeActivity" />
         <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity" />
+        <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity2" />
 
         <receiver android:name="ip.cynic.mobilesafe.receiver.BootReceiver" >
             <intent-filter>
