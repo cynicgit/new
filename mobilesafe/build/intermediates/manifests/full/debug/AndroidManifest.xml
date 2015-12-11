@@ -19,6 +19,7 @@
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -73,10 +74,9 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="ip.cynic.mobilesafe.service.LocationService" >
-        </service>
-        <service android:name="ip.cynic.mobilesafe.service.AddressService" >
-        </service>
+        <service android:name="ip.cynic.mobilesafe.service.LocationService" />
+        <service android:name="ip.cynic.mobilesafe.service.AddressService" />
+        <service android:name="ip.cynic.mobilesafe.service.CallSafeService" />
     </application>
 
 </manifest>

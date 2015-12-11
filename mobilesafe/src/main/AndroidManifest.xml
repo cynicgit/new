@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ip.cynic.mobilesafe"
     android:versionCode="1"
-    android:versionName="1.0.1" >
+    android:versionName="1.0.1">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -18,52 +18,54 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name="ip.cynic.mobilesafe.activity.SplashActivity"
-            android:label="@string/app_name" >
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ip.cynic.mobilesafe.activity.HomeActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.SettingActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.SettingSetup1Activity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.SettingSetup2Activity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.SettingSetup3Activity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.SettingSetup4Activity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.LostFindActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.ContactActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.AdvanceToolActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.AddressActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.AddressLocationActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.CallSafeActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity" />
-        <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity2" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.SettingSetup1Activity" />
+        <activity android:name=".activity.SettingSetup2Activity" />
+        <activity android:name=".activity.SettingSetup3Activity" />
+        <activity android:name=".activity.SettingSetup4Activity" />
+        <activity android:name=".activity.LostFindActivity" />
+        <activity android:name=".activity.ContactActivity" />
+        <activity android:name=".activity.AdvanceToolActivity" />
+        <activity android:name=".activity.AddressActivity" />
+        <activity android:name=".activity.AddressLocationActivity" />
+        <activity android:name=".activity.CallSafeActivity" />
+        <activity android:name=".activity.BlackNumberActivity" />
+        <activity android:name=".activity.BlackNumberActivity2" />
 
-        <receiver android:name="ip.cynic.mobilesafe.receiver.BootReceiver" >
+        <receiver android:name=".receiver.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="ip.cynic.mobilesafe.receiver.SmsReceiver" >
-            <intent-filter android:priority="1000" >
+        <receiver android:name=".receiver.SmsReceiver">
+            <intent-filter android:priority="1000">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="ip.cynic.mobilesafe.receiver.MyDeviceAdminReceiver"
+            android:name=".receiver.MyDeviceAdminReceiver"
             android:description="@string/sample_device_admin_description"
             android:label="@string/sample_device_admin"
-            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data
                 android:name="android.app.device_admin"
                 android:resource="@xml/device_admin" />
@@ -73,10 +75,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="ip.cynic.mobilesafe.service.LocationService" >
-        </service>
-        <service android:name="ip.cynic.mobilesafe.service.AddressService" >
-        </service>
+        <service android:name=".service.LocationService"></service>
+        <service android:name=".service.AddressService"></service>
+        <service
+            android:name=".service.CallSafeService"
+           ></service>
     </application>
 
 </manifest>

@@ -16,6 +16,10 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_address_location.xml"
     },
     {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blacknumber2.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\activity_blacknumber2.xml"
+    },
+    {
         "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atools.xml",
         "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_atools.xml"
     },
@@ -86,6 +90,10 @@
     {
         "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_click.xml",
         "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\layout\\activity_setting_click.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\blacknumber_add_dialog.xml",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\layout\\blacknumber_add_dialog.xml"
     },
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lost_find.xml",

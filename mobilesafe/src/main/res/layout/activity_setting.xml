@@ -38,4 +38,13 @@
         android:layout_width="match_parent"
     	android:layout_height="wrap_content"
         />
+
+    <ip.cynic.mobilesafe.view.SettingItemView
+        android:id="@+id/siv_call_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cynic:title="黑名单功能设置"
+        cynic:desc_on="黑名单功能已开启"
+        cynic:desc_off="黑名单功能已关闭"
+        />
 </LinearLayout>

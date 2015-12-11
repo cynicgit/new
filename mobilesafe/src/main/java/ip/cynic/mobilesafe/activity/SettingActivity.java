@@ -1,5 +1,6 @@
 package ip.cynic.mobilesafe.activity;
 
+import ip.cynic.mobilesafe.service.CallSafeService;
 import ip.cynic.mobilesafe.view.SettingItemClick;
 import ip.cynic.mobilesafe.view.SettingItemView;
 import ip.cynic.mobilesafe.utils.ServiceStatusUtils;
@@ -22,6 +23,7 @@ public class SettingActivity extends Activity {
     private Editor edit;
     private SharedPreferences mPref;
     private SettingItemView sivAddress;
+    private SettingItemView sivCallsafe;
     String[] items = new String[] { "魅力蓝", "活力橙", "金属灰", "姨妈白", "绿帽子" };
     private SettingItemClick sivAddressStyle;
     private SettingItemClick sicAddressLocation;
@@ -31,12 +33,13 @@ public class SettingActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
         siv = (SettingItemView) findViewById(R.id.siv_update);
+        //sivCallsafe = (SettingItemView) findViewById(R.id.siv_call_safe);
         mPref = getSharedPreferences("config", MODE_PRIVATE);
         edit = mPref.edit();
         update();//自动更新
         showAddress();//显示归属地
         showSingleDailog();//归属地显示浮窗样式
-
+        showBlackSetting();
         //归属地显示浮窗位置
         sicAddressLocation = (SettingItemClick) findViewById(R.id.siv_address_location);
         sicAddressLocation.setTitle("归属地浮窗位置设置");
@@ -97,6 +100,32 @@ public class SettingActivity extends Activity {
                 }
                 edit.commit();
                 sivAddress.setCheck(!sivAddress.isChecked());
+            }
+        });
+    }
+
+    private void showBlackSetting() {
+        // boolean addressShow = mPref.getBoolean("address_show", false);
+        sivCallsafe = (SettingItemView) findViewById(R.id.siv_call_safe);
+        boolean addressShow = ServiceStatusUtils.isServiceRunning(this,
+                "ip.cynic.mobilesafe.service.CallSafeService");
+        sivCallsafe.setCheck(addressShow);
+
+        sivCallsafe.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (sivCallsafe.isChecked()) {
+                    edit.putBoolean("call_safe", false);
+                    stopService(new Intent(SettingActivity.this,
+                            CallSafeService.class));
+                } else {
+                    edit.putBoolean("call_safe", true);
+                    startService(new Intent(SettingActivity.this,
+                            CallSafeService.class));
+                }
+                edit.commit();
+                sivCallsafe.setCheck(!sivAddress.isChecked());
             }
         });
     }

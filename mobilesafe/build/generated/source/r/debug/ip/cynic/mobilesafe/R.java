@@ -86,19 +86,24 @@ containing a value of this type.
         public static final int unlock=0x7f020024;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0029;
+        public static final int action_settings=0x7f0b002f;
+        public static final int bt_add=0x7f0b002a;
         public static final int bt_add_black=0x7f0b000a;
+        public static final int bt_black_cancel=0x7f0b002b;
         public static final int bt_cancel=0x7f0b0014;
         public static final int bt_confirm=0x7f0b0013;
         public static final int cb_admin=0x7f0b0017;
-        public static final int cb_lock=0x7f0b0025;
-        public static final int cb_status=0x7f0b0022;
+        public static final int cb_lock=0x7f0b0026;
+        public static final int cb_phone=0x7f0b0029;
+        public static final int cb_sms=0x7f0b0028;
+        public static final int cb_status=0x7f0b0023;
+        public static final int et_black_number=0x7f0b0027;
         public static final int et_password=0x7f0b0012;
         public static final int et_password_confirm=0x7f0b001b;
-        public static final int et_phone=0x7f0b0024;
+        public static final int et_phone=0x7f0b0025;
         public static final int et_phone_number=0x7f0b0000;
         public static final int gv_menu=0x7f0b000f;
-        public static final int iv_delete_item=0x7f0b0028;
+        public static final int iv_delete_item=0x7f0b002e;
         public static final int iv_drag=0x7f0b0003;
         public static final int iv_item=0x7f0b0010;
         public static final int iv_lock=0x7f0b0016;
@@ -111,21 +116,22 @@ containing a value of this type.
         public static final int siv_address_location=0x7f0b001f;
         public static final int siv_address_show=0x7f0b001d;
         public static final int siv_address_style=0x7f0b001e;
-        public static final int siv_sim=0x7f0b0023;
+        public static final int siv_call_safe=0x7f0b0020;
+        public static final int siv_sim=0x7f0b0024;
         public static final int siv_update=0x7f0b001c;
         public static final int tv_address_show=0x7f0b0005;
-        public static final int tv_black_mode=0x7f0b0027;
-        public static final int tv_blacknumber=0x7f0b0026;
+        public static final int tv_black_mode=0x7f0b002d;
+        public static final int tv_blacknumber=0x7f0b002c;
         public static final int tv_blacknumber_manager=0x7f0b000b;
         public static final int tv_bottom=0x7f0b0004;
-        public static final int tv_desc=0x7f0b0021;
+        public static final int tv_desc=0x7f0b0022;
         public static final int tv_item=0x7f0b0011;
         public static final int tv_name=0x7f0b000d;
         public static final int tv_page=0x7f0b0009;
         public static final int tv_phone=0x7f0b000e;
         public static final int tv_result=0x7f0b0001;
         public static final int tv_safe_phone=0x7f0b0015;
-        public static final int tv_title=0x7f0b0020;
+        public static final int tv_title=0x7f0b0021;
         public static final int tv_top=0x7f0b0002;
         public static final int tv_version=0x7f0b001a;
     }
@@ -152,7 +158,8 @@ containing a value of this type.
         public static final int activity_setup2=0x7f030013;
         public static final int activity_setup3=0x7f030014;
         public static final int activity_setup4=0x7f030015;
-        public static final int blacknumber_list_item=0x7f030016;
+        public static final int blacknumber_add_dialog=0x7f030016;
+        public static final int blacknumber_list_item=0x7f030017;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
