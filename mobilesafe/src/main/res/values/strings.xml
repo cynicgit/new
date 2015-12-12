@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world</string>
     <string name="sample_device_admin">手机卫士管理器</string>
     <string name="sample_device_admin_description">可以锁屏,清除数据</string>
+    <string name="title_activity_app_manager">AppManager</string>
 
 </resources>

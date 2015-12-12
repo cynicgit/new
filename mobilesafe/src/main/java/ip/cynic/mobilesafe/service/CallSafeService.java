@@ -54,7 +54,7 @@ public class CallSafeService extends Service {
                 String messageBody = smsMessage.getMessageBody();
 
                 String mode = dao.findByNumber(originatingAddress);
-                System.out.println(mode);
+                System.out.println("mode"+mode);
                 if("1".equals(mode)||"2".equals(mode)){
                     abortBroadcast();
                 }

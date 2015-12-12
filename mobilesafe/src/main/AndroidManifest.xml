@@ -5,7 +5,7 @@
     android:versionName="1.0.1">
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="9"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +19,6 @@
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -50,6 +49,7 @@
         <activity android:name=".activity.CallSafeActivity" />
         <activity android:name=".activity.BlackNumberActivity" />
         <activity android:name=".activity.BlackNumberActivity2" />
+        <activity android:name=".activity.AppManagerActivity" />
 
         <receiver android:name=".receiver.BootReceiver">
             <intent-filter>
@@ -75,11 +75,10 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".service.LocationService"></service>
-        <service android:name=".service.AddressService"></service>
-        <service
-            android:name=".service.CallSafeService"
-           ></service>
+        <service android:name=".service.LocationService" />
+        <service android:name=".service.AddressService" />
+        <service android:name=".service.CallSafeService" />
+
     </application>
 
 </manifest>

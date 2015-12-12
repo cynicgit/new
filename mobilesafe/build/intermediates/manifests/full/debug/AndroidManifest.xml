@@ -49,6 +49,7 @@
         <activity android:name="ip.cynic.mobilesafe.activity.CallSafeActivity" />
         <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity" />
         <activity android:name="ip.cynic.mobilesafe.activity.BlackNumberActivity2" />
+        <activity android:name="ip.cynic.mobilesafe.activity.AppManagerActivity" />
 
         <receiver android:name="ip.cynic.mobilesafe.receiver.BootReceiver" >
             <intent-filter>
