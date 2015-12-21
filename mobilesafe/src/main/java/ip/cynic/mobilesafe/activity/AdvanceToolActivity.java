@@ -5,6 +5,7 @@ import ip.cynic.mobilesafe.utils.SMSUtil;
 import ip.cynic.mobilesafe.utils.ToastUtil;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,8 @@ import android.view.View;
  * 2015-12-3
  */
 public class AdvanceToolActivity extends Activity{
+
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +33,39 @@ public class AdvanceToolActivity extends Activity{
 
 
     public void backUpSms(View v){
-        boolean backUpSms = SMSUtil.backUpSms(this);
-        if (backUpSms){
-            ToastUtil.showToast(this,"成功");
-        }else {
-            ToastUtil.showToast(this,"失败");
 
-        }
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("短信备份");
+        progressDialog.setMessage("正在备份，请稍候...");
+        //横向
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progressDialog.show();
+
+        new Thread(){
+            @Override
+            public void run() {
+                boolean backUpSms = SMSUtil.backUpSms(AdvanceToolActivity.this, new SMSUtil.BackUpSms() {
+                    @Override
+                    public void setMax(int count) {
+                        progressDialog.setMax(count);
+                    }
+
+                    @Override
+                    public void setProgess(int progess) {
+                        progressDialog.setProgress(progess);
+                    }
+                });
+
+                if (backUpSms){
+                    ToastUtil.showToast(AdvanceToolActivity.this,"成功");
+                }else {
+                    ToastUtil.showToast(AdvanceToolActivity.this,"失败");
+
+                }
+
+                progressDialog.dismiss();
+            }
+        }.start();
+
     }
 }
