@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_security_code.xml",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\layout\\activity_security_code.xml"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

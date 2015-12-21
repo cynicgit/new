@@ -116,6 +116,10 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\listview_divider.png"
     },
     {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img1.png",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\img1.png"
+    },
+    {
         "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_settings.png",
         "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable-hdpi\\home_settings.png"
     },
@@ -188,6 +192,10 @@
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\drag.bmp"
     },
     {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\local_popup_bg.9.png",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\local_popup_bg.9.png"
+    },
+    {
         "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drag.bmp",
         "source": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\drawable-hdpi\\drag.bmp"
     },
@@ -222,6 +230,14 @@
     {
         "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\call_locate_gray.9.png",
         "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\call_locate_gray.9.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img3.png",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\img3.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img2.png",
+        "source": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\drawable-hdpi\\img2.png"
     },
     {
         "merged": "E:\\andriodstudio\\new\\mobilesafe\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\function_greenbutton_normal.9.png",

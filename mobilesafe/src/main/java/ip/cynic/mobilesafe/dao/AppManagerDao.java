@@ -33,7 +33,7 @@ public class AppManagerDao {
 
             File file = new File(sourceDir);
 
-            long size = file.getFreeSpace();
+            long size = file.length();
 
             int flags = info.applicationInfo.flags;
 

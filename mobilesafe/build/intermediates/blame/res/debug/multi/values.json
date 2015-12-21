@@ -140,9 +140,28 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 646,
-                    "endLine": 19,
+                    "endColumn": 65,
+                    "endOffset": 707
+                },
+                "from": {
+                    "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 65,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 712,
+                    "endLine": 20,
                     "endColumn": 12,
-                    "endOffset": 935
+                    "endOffset": 1001
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",
@@ -158,12 +177,12 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 940,
-                    "endLine": 24,
+                    "startOffset": 1006,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1151
+                    "endOffset": 1217
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",
@@ -179,12 +198,12 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1156,
-                    "endLine": 32,
+                    "startOffset": 1222,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 1532
+                    "endOffset": 1598
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",
@@ -200,12 +219,12 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1537,
-                    "endLine": 42,
+                    "startOffset": 1603,
+                    "endLine": 43,
                     "endColumn": 12,
-                    "endOffset": 2068
+                    "endOffset": 2134
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",
@@ -221,12 +240,12 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2073,
-                    "endLine": 52,
+                    "startOffset": 2139,
+                    "endLine": 53,
                     "endColumn": 12,
-                    "endOffset": 2614
+                    "endOffset": 2680
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",
@@ -242,12 +261,12 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2619,
-                    "endLine": 59,
+                    "startOffset": 2685,
+                    "endLine": 60,
                     "endColumn": 12,
-                    "endOffset": 2927
+                    "endOffset": 2993
                 },
                 "from": {
                     "file": "F:\\git\\MyApplication\\mobilesafe\\src\\main\\res\\values\\styles.xml",

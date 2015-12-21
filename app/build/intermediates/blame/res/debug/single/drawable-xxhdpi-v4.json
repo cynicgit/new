@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_input.png",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\bg_input.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_button_normal.png",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\bg_button_normal.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_button_press.png",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\bg_button_press.png"
+    },
+    {
+        "merged": "F:\\git\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_gray_right.png",
+        "source": "F:\\git\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\bg_gray_right.png"
+    }
+]
