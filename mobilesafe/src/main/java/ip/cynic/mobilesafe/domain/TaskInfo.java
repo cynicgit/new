@@ -11,6 +11,16 @@ public class TaskInfo {
     private Drawable icon;
     private String taskPackage;
 
+    public String getAppName() {
+        return appName;
+    }
+
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+
+    private String appName;
+
     //是否是用户进程
     private boolean userTask;
     //内存占用
@@ -67,13 +77,14 @@ public class TaskInfo {
         this.checked = checked;
     }
 
-    public TaskInfo(String taskName, Drawable icon, String taskPackage, boolean userTask, long memorySize, boolean checked) {
+    public TaskInfo(String taskName, Drawable icon, String taskPackage, boolean userTask, long memorySize, boolean checked,String appName) {
         this.taskName = taskName;
         this.icon = icon;
         this.taskPackage = taskPackage;
         this.userTask = userTask;
         this.memorySize = memorySize;
         this.checked = checked;
+        this.appName = appName;
     }
 
     public TaskInfo() {

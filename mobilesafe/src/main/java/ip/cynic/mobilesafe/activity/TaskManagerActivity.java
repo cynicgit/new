@@ -10,7 +10,12 @@ import android.widget.TextView;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import ip.cynic.mobilesafe.R;
+import ip.cynic.mobilesafe.dao.TaskManagerDao;
+import ip.cynic.mobilesafe.domain.TaskInfo;
 import ip.cynic.mobilesafe.utils.ActivityManagerUtils;
 
 /**
@@ -24,7 +29,9 @@ public class TaskManagerActivity extends Activity{
     private TextView tvTaskSize;
     @ViewInject(R.id.lv_task_info)
     private ListView lvTaskInfo;
-
+    private List<TaskInfo> taskInfos;
+    private List<TaskInfo> userTasks;
+    private ArrayList<TaskInfo> systemTasks;
 
 
     @Override
@@ -41,8 +48,19 @@ public class TaskManagerActivity extends Activity{
         int progessCount = ActivityManagerUtils.getProgessCount(this);
 
         tvTaskSize.setText("当前运行进程数:"+progessCount);
-        tvMemory.setText("内存:"+ Formatter.formatFileSize(this,memoryAvai)+
-                "/"+Formatter.formatFileSize(this,memorySize));
+        tvMemory.setText("内存:" + Formatter.formatFileSize(this, memoryAvai) +
+                "/" + Formatter.formatFileSize(this, memorySize));
+
+        taskInfos = TaskManagerDao.getTaskList(this);
+        userTasks = new ArrayList<TaskInfo>();
+        systemTasks = new ArrayList<TaskInfo>();
+        for (TaskInfo info : taskInfos) {
+            if(info.isUserTask()){
+                userTasks.add(info);
+            }else {
+                systemTasks.add(info);
+            }
+        }
     }
 
     private void initUI(){
