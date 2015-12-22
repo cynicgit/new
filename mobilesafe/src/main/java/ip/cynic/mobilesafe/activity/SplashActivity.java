@@ -101,6 +101,8 @@ public class SplashActivity extends Activity {
             handler.sendEmptyMessageDelayed(CODE_ENTRY_HOME, 2000);
         }
 
+        createShortcut();
+
         copyDB("address.db");
 
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.rl_splash);
@@ -108,6 +110,33 @@ public class SplashActivity extends Activity {
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.3f, 1f);
         alphaAnimation.setDuration(2000);
         rl.setAnimation(alphaAnimation);
+
+    }
+
+    /**
+     * 创建快捷方式
+     */
+    private void createShortcut() {
+
+        Intent intent = new Intent();
+        //快捷方式基本信息
+        intent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+
+        //如果设置为true表示可以创建重复的快捷方式
+        intent.putExtra("duplicate", false);
+        intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "手机卫士");
+        intent.putExtra(Intent.EXTRA_SHORTCUT_ICON,R.drawable.ic_launcher);
+
+        //快捷方式的作用
+        Intent shortcut = new Intent();
+        //使用隐式意图打开手机卫士首页
+        shortcut.setAction("ip.cynic.mobilesafe.shortcut");
+        shortcut.addCategory(Intent.CATEGORY_DEFAULT);
+
+        intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT,shortcut);
+
+        sendBroadcast(intent);
+
 
     }
 

@@ -294,7 +294,14 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\dimens.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -306,7 +313,14 @@
                     "endOffset": 368
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\dimens.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -318,7 +332,14 @@
                     "endOffset": 421
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 52,
+                        "endOffset": 150
+                    }
                 }
             },
             {
@@ -330,7 +351,14 @@
                     "endOffset": 463
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 41,
+                        "endOffset": 96
+                    }
                 }
             },
             {
@@ -342,7 +370,14 @@
                     "endOffset": 515
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 51,
+                        "endOffset": 203
+                    }
                 }
             },
             {
@@ -354,7 +389,14 @@
                     "endOffset": 571
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 55,
+                        "endOffset": 260
+                    }
                 }
             },
             {
@@ -366,7 +408,14 @@
                     "endOffset": 641
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 266,
+                        "endColumn": 69,
+                        "endOffset": 331
+                    }
                 }
             },
             {
@@ -398,7 +447,15 @@
                     "endOffset": 1001
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 496
+                    }
                 }
             },
             {
@@ -411,7 +468,15 @@
                     "endOffset": 1217
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 537,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 752
+                    }
                 }
             },
             {
@@ -424,7 +489,15 @@
                     "endOffset": 1598
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1082,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 1465
+                    }
                 }
             },
             {
@@ -437,7 +510,15 @@
                     "endOffset": 2134
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1477,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 2017
+                    }
                 }
             },
             {
@@ -450,7 +531,15 @@
                     "endOffset": 2680
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2029,
+                        "endLine": 64,
+                        "endColumn": 12,
+                        "endOffset": 2579
+                    }
                 }
             },
             {
@@ -463,7 +552,15 @@
                     "endOffset": 2993
                 },
                 "from": {
-                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\andriodstudio\\new\\mobilesafe\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 760,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 1074
+                    }
                 }
             }
         ]
