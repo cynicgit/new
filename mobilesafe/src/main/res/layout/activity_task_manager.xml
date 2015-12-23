@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
     <TextView
         style="@style/title"
-        android:text="进程管理"
-        />
+        android:text="进程管理" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,29 +15,71 @@
 
         <TextView
             android:id="@+id/tv_task_size"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="进程数4个"
 
             />
 
         <TextView
             android:id="@+id/tv_memory"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="内存:"
 
             />
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/lv_task_info"
+    <RelativeLayout
+        android:layout_weight="111"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </ListView>
+        <ListView
+            android:id="@+id/lv_task_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+        </ListView>
+
+        <TextView
+            android:id="@+id/tv_task_status_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="allCheck"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="全选"/>
+        <Button
+            android:onClick="inverseCheck"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="反选"/>
+        <Button
+            android:onClick="taskClear"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="清理"/>
+        <Button
+            android:onClick="taskSetting"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="设置"/>
+    </LinearLayout>
 </LinearLayout>

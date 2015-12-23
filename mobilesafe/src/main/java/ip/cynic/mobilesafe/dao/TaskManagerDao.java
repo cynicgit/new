@@ -43,7 +43,7 @@ public class TaskManagerDao {
                 Debug.MemoryInfo[] memoryInfo = activityManager.getProcessMemoryInfo(new int[]{processInfo.pid});
 
                 //获取占用内存
-                privateDirty = memoryInfo[0].getTotalPrivateDirty();
+                privateDirty = memoryInfo[0].getTotalPrivateDirty() * 1024;
 
                 ApplicationInfo applicationInfo = packageManager.getApplicationInfo(processName, 0);
 
@@ -55,19 +55,20 @@ public class TaskManagerDao {
                 }
 
                 processPackage = applicationInfo.packageName;
-                appName = applicationInfo.loadLabel(packageManager).toString();
                 icon = applicationInfo.loadIcon(packageManager);
+                appName = applicationInfo.loadLabel(packageManager).toString();
 
 
             } catch (Exception e) {
                 e.printStackTrace();
                 icon = context.getResources().getDrawable(R.drawable.ic_launcher);
+                appName = "系统进程";
             }
 
             lists.add(new TaskInfo(processName,icon,processPackage,isUserApp,privateDirty,false,appName));
         }
 
 
-        return null;
+        return lists;
     }
 }
