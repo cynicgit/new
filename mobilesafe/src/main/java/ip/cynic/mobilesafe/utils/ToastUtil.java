@@ -1,6 +1,7 @@
 package ip.cynic.mobilesafe.utils;
 
 import android.app.Activity;
+import android.content.Context;
 import android.widget.Toast;
 
 public class ToastUtil {
@@ -16,5 +17,11 @@ public class ToastUtil {
 				}
 			});
 		}
+	}
+
+	public static void showToast(Context context, String str){
+
+		Toast.makeText(context, str, Toast.LENGTH_SHORT).show();
+
 	}
 }

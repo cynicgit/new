@@ -322,6 +322,10 @@ public class TaskManagerActivity extends Activity {
     }
 
 
+    /**
+     * 跳到设置界面
+     * @param v
+     */
     public void taskSetting(View v){
         Intent intent = new Intent(this,TaskManagerSettingActivity.class);
         startActivity(intent);

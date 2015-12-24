@@ -39,10 +39,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.HomeActivity" >
-            <intent-filter >
+        <activity android:name=".activity.HomeActivity">
+            <intent-filter>
                 <action android:name="ip.cynic.mobilesafe.shortcut" />
-                <category android:name="android.intent.category.DEFAULT"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".activity.SettingActivity" />
@@ -86,10 +87,28 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name=".receiver.KillTaskReceiver">
+            <intent-filter>
+                <action android:name="ip.cynic.mobilesafe.receiver.killtask"/>
+            </intent-filter>
+        </receiver>
+
         <service android:name=".service.LocationService" />
         <service android:name=".service.AddressService" />
         <service android:name=".service.CallSafeService" />
+        <service android:name=".service.KillTaskService"/>
+        <service android:name=".service.KillTaskWidgetService"/>
 
+        <!-- 桌面小部件的配置 -->
+        <receiver android:name="ip.cynic.mobilesafe.receiver.MyAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
+        </receiver>
     </application>
 
 </manifest>
