@@ -105,6 +105,8 @@ public class SplashActivity extends Activity {
 
         copyDB("address.db");
 
+        copyDB("antivirus.db");
+
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.rl_splash);
         // 设置渐变动画 2s
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.3f, 1f);
