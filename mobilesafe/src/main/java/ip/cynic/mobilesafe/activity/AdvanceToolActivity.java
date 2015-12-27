@@ -68,4 +68,9 @@ public class AdvanceToolActivity extends Activity{
         }.start();
 
     }
+
+    public void applock(View v){
+        Intent intent = new Intent(this,AppLockActivity.class);
+        startActivity(intent);
+    }
 }

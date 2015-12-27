@@ -20,6 +20,7 @@
         android:text="电话号码归属地查询"
         android:textSize="20sp" />
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,4 +33,15 @@
         android:text="短信备份"
         android:textSize="20sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5000"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:onClick="applock"
+        android:text="程序锁"
+        android:textSize="20sp" />
 </LinearLayout>

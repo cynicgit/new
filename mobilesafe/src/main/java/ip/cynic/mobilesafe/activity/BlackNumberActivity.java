@@ -102,7 +102,7 @@ public class BlackNumberActivity extends Activity {
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
 
-            ViewHolder holder;
+            ViewHolder holder = null;
             if (view == null) {
                 view = View.inflate(BlackNumberActivity.this, R.layout.blacknumber_list_item, null);
                 holder = new ViewHolder();
@@ -134,14 +134,14 @@ public class BlackNumberActivity extends Activity {
             return view;
         }
 
-        class ViewHolder {
-            TextView tvNumber;
-            TextView tvMode;
-            ImageView ivDeleteList;
-        }
+
     }
 
-
+    static class ViewHolder {
+        TextView tvNumber;
+        TextView tvMode;
+        ImageView ivDeleteList;
+    }
     /**
      * 上一页
      * @param v
